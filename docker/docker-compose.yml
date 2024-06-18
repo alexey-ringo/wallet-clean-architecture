@@ -10,7 +10,7 @@ services:
         - PUID=${PUID}
         - PGID=${PGID}
     environment:
-      PHP_IDE_CONFIG: "serverName=Docker"
+      PHP_IDE_CONFIG: "serverName=wallet-clean-architecture"
     volumes:
       - /var/www/vendor/
       - ./../:/var/www/
